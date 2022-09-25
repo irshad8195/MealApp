@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal App</title>
+    <link  rel="stylesheet" href='meal.css'>
+</head>
+<div class="container">
+    <h1> Meal Finder</h1>
+    <div class="result">
+        <form class="result" id="submit">
+            <input type="text" id="search" placeholder="Search for food">
+            <button class="search-btn" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+ </form>
+ <button class="random-btn" id="random">
+    <i class="fas fa-random"></i>
+ </button>
+    </div>
+
+    <div class="result-heading"></div>
+    <div id="meals" class="meal"></div>
+<div id="single-meal"></div>
+
+<!-- javaScript link -->
+<script src="meal.js"></script>
+</body>
+</html>
